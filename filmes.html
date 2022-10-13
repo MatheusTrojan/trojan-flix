@@ -16,12 +16,27 @@
             </header>
             
             <main class="container">
+                <label for="tituto-filme">Digite o nome do filme</label>
+                <input type="text" id="titulo-filme">
+                <button id="btn-busca">Buscar</button>
+                <p class="erro" id="erro"></p>
 
+                <div class="cartao__filme">
+                    <img src="" alt="" class="cartao__filme--poster" id="poster">
+                    <div class="cartao__filme--infos">
+                        <h2 class="cartao__filme--titulo" id="titulo"></h2>
+                        <p class="cartao__filme--sinopse" id="sinopse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil inventore expedita quaerat quas a veniam fugiat. Quae dolorem, natus error harum nostrum aliquam, sint alias blanditiis sed nemo, facilis quam?</p>
+                        <p class="cartao__filme--ano" id="ano"></p>
+                        <div id="erro"></div>
+                    </div>
+                </div>
             </main>
         </div>
             
         <footer class="rodape">
             
         </footer>
+
+        <script src="src/script/filmes.js"></script>
     </body>
 </html>
