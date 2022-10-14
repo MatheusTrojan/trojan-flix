@@ -25,11 +25,14 @@
 }
 
 .cartao__filme--sinopse {
+    text-align: justify;
+    margin-left: 1em;
     max-height: 150px;
     overflow-y: auto;
 }
 
-.cartao__filme--ano {
+.cartao__filme--nota {
+    margin-top: 1em;
     text-align: right;
 }
 
