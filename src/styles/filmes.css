@@ -5,7 +5,7 @@
     display: flex;
     height: 250px;
     padding: 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
     width: 500px;
 }
 
@@ -34,6 +34,10 @@
 .cartao__filme--nota {
     margin-top: 1em;
     text-align: right;
+}
+
+.hidden {
+    display: none;
 }
 
 

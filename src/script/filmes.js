@@ -35,6 +35,13 @@ async function idFilme(filme) {
     }
 }
 
+function removeClasse(){
+    var cartao = document.getElementById("cartao")
+    cartao.classList.remove("hidden")
+}
+
 var filme = document.getElementById("titulo-filme")
 var busca = document.getElementById("btn-busca")
+
 busca.addEventListener("click", () => idFilme(filme.value))
+busca.addEventListener("click", () => removeClasse())

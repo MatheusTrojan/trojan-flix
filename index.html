@@ -17,14 +17,24 @@
             
             <main class="container">
                 <h2 class="container__titulo">Seja bem vindo à TrojanFlix</h2>
-                <p>Ja possui cadastro?</p>
-                <button>Cadastrar</button>
-                <button>Login</button>
+                <form class="formulario__login">Faça o seu Login
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Seu nome de usuário">
+                    
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Sua senha">
+
+                </form>
+                <button onclick="logar()">Login</button>
+
+                <p class="container__texto">Utilize as credendicas USERNAME: admin@admin.com / SENHA: 123456 para ter acesso!</p>
             </main>
         </div>
             
         <footer class="rodape">
             
         </footer>
+
+        <script src="src/script/login.js"></script>
     </body>
 </html>
