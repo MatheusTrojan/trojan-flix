@@ -1,4 +1,46 @@
-.container {
-    text-align: center;
-    
+.container__geral {
+    min-height: calc(100vh - 100px);
+    background: var(--cor-fundo2);
 }
+
+.container {
+    margin: 5rem;
+    text-align: center;    
+}
+
+.formulario__titulo {
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+}
+
+.formulario__login {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 40%;
+}
+
+.formulario__login > label {
+    align-self: flex-start;
+}
+
+.formulario__login > input {
+    padding: 0.3rem;
+}
+
+.btn-login {
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background: rgb(170, 16, 16);
+    color: var(--cor-primaria);
+    font-weight: 600;
+    transform: scale(1.1);
+}
+

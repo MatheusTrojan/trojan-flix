@@ -5,19 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TrojanFlix - Home</title>
+        <link rel="shortcut icon" href="src/images/popcorn.png" type="image/x-icon">
 
         <link rel="stylesheet" href="src/styles/reset.css">
         <link rel="stylesheet" href="src/styles/styles.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
     </head>
     <body>
         <div class="container__geral">
             <header class="cabecalho">
-                
+                <h2 class="cabecalho__titulo">Seja bem vindo à</h2>
+                <img src="src/images/trojanflix-logo.png" alt="Logo da Trojanflix" class="cabecalho__imagem">
             </header>
             
             <main class="container">
-                <h2 class="container__titulo">Seja bem vindo à TrojanFlix</h2>
-                <form class="formulario__login">Faça o seu Login
+                <h2 class="formulario__titulo">Faça o login e acesse seus filmes favoritos!</h2>
+                <form class="formulario__login">
+
                     <label for="username">Username</label>
                     <input type="text" name="username" id="username" placeholder="Seu nome de usuário">
                     
@@ -25,14 +30,20 @@
                     <input type="password" name="senha" id="senha" placeholder="Sua senha">
 
                 </form>
-                <button onclick="logar()">Login</button>
+                <button class="btn-login" onclick="logar()">Login</button>
 
-                <p class="container__texto">Utilize as credendicas USERNAME: admin@admin.com / SENHA: 123456 para ter acesso!</p>
+                <p class="container__texto">Utilize as seguintes credenciais: <br><br> USERNAME: admin@admin.com / SENHA: 123456 para ter acesso!</p>
             </main>
         </div>
             
         <footer class="rodape">
-            
+            <p class="rodape__texto">Código de Matheus Trojan</p>
+            <a href="https://github.com/MatheusTrojan" class="rodape__imagem">
+              <img src="src/images/github.svg" alt="Acesse meu Github">
+            </a>
+            <a href="https://www.linkedin.com/in/matheus-trojan/" class="rodape__imagem">
+              <img src="src/images/linkedin.svg" alt="Acesse meu LinkedIn">
+            </a>
         </footer>
 
         <script src="src/script/login.js"></script>

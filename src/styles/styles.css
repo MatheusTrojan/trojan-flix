@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+@import url("./cabecalho.css");
 @import url("./home.css");
 @import url("./filmes.css");
+@import url("./rodape.css");
 
 
 :root {
     --fonte-principal: 'Montserrat', sans-serif;
 
-    --cor-primaria: #DFF6FF;
+    --cor-primaria: #FFFFFF;
 
-    --cor-fundo: #1363DF;
+    --cor-fundo: black;
+    --cor-fundo2: #9fa3a9;
+    --cor-fundo3: #6a6e73;
 }
 
 body {
