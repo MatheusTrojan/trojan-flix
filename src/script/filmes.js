@@ -29,7 +29,7 @@ async function idFilme(filme) {
     // }
 
     titulo.innerHTML = filmeEditado.fullTitle
-    nota.innerHTML = "Nota IMDb: " + notaEditado.imDb
+    nota.innerHTML = "Nota IMDb: ⭐ " + notaEditado.imDb
     poster.src = idEditado.results[0].image
     sinopse.innerHTML = filmeEditado.plotShort.html
     }
