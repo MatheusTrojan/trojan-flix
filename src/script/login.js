@@ -1,9 +1,3 @@
-function alerta(){
-    swal("Usuário autenticado com sucesso, bem vindo!", "","success", {
-      button: "Encerrar",      
-    });
-}
-
 function logar () {
     var user = document.getElementById("username")
     var senha = document.getElementById("senha")
@@ -11,7 +5,7 @@ function logar () {
     if (user.value == "admin@admin.com" && senha.value == "123456") {
         localStorage.setItem("acesso", true);
 
-        alerta();
+        alert("Credenciais validadas com sucesso! Bem Vindo!");
 
         window.location.href = "filmes.html";
     } else {
