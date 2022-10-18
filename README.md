@@ -52,7 +52,7 @@ O usuário deverá conseguir:
 ### O que eu aprendi
 
 🟢 Validar formulário de login simples <br>
-🟢 Buscar na API do imDB as informações do filme e mostrar na tela
+🟢 Buscar na API do IMDb as informações do filme e mostrar na tela
 
 ## Autor
 
